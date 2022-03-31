@@ -142,16 +142,6 @@ h1{
   margin-top: 2vmax;
 }
 
-/*index for ny that determines font family, alignment, position, color, and margin*/
-.nyposition{
-  position: absolute;
-  font-family: brilon;
-  text-align: center;
-  top:45%;
-  left:48%;
-  color:#47532C;
-  margin-top: 2vmax;
-}
 
 /*creates a window-sized grid for bg image with relative position*/
 .fullgrid{
@@ -211,7 +201,7 @@ h1{
   left: 41%;
   background-color: #c9bca4;
 }
-
+@media only screen and (min-width:480px){
 /*creates the indexes in the homepage: determines alignment, list type, margin and size*/
 ul{
 text-align: center;
@@ -234,4 +224,28 @@ padding:0.1vmax 1.5vmax
 /*changes color when hovered*/
 ul li a:hover {
   color: #010305;
+}
+
+/*index for ny that determines font family, alignment, position, color, and margin*/
+.nyposition{
+  position: absolute;
+  font-family: brilon;
+  text-align: center;
+  top:45%;
+  left:48%;
+  color:#47532C;
+  margin-top: 2vmax;
+  margin-left: 3vmax;
+}
+
+/*index for seoul that determines font family, alignment, position, color, and margin*/
+.seoulposition{
+  position: absolute;
+  font-family: brilon;
+  text-align: center;
+  top:45%;
+  left:33%;
+  color:#47532C;
+  margin-top: 2vmax;
+}
 }
